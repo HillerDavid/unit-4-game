@@ -1,3 +1,7 @@
 #main-container {
     margin: 0 auto;
 }
+
+#versus-icon, #combat-area-title {
+    display: none;
+}

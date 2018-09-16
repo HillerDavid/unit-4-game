@@ -26,28 +26,28 @@
 
         <h2 class="text-center mt-4" id="character-select-title">Select Your Character</h2>
         <div class="row" id="character-select-row">
-            <div class="card col-3 text-center" id="character1-card">
+            <div class="card col-3 text-center character-select-card" id="character1-card">
                 <div class="card-header" id="character1-name">
                     Character1
                 </div>
                 <img class="card-img-top" id="character1-thumbnail" src="" alt="character1">
                 <div class="card-body">HP: <span id="character1-hp"></span></div>
             </div>
-            <div class="card col-3 text-center" id="character2-card">
+            <div class="card col-3 text-center character-select-card" id="character2-card">
                 <div class="card-header" id="character2-name">
                     Character2
                 </div>
                 <img class="card-img-top" id="character2-thumbnail" src="" alt="character2">
                 <div class="card-body">HP: <span id="character2-hp"></span></div>
             </div>
-            <div class="card col-3 text-center" id="character3-card">
+            <div class="card col-3 text-center character-select-card" id="character3-card">
                 <div class="card-header" id="character3-name">
                     Character3
                 </div>
                 <img class="card-img-top" id="character3-thumbnail" src="" alt="character3">
                 <div class="card-body">HP: <span id="character3-hp"></span></div>
             </div>
-            <div class="card col-3 text-center" id="character4-card">
+            <div class="card col-3 text-center character-select-card" id="character4-card">
                 <div class="card-header" id="character4-name">
                     Character4
                 </div>
@@ -58,21 +58,21 @@
 
         <h2 class="text-center mt-4" id="combat-area-title">Combat Area</h2>
         <div class="row " id="combat-area-row">
-            <div class="card col-5 text-center" id="user-character-card">
+            <!-- <div class="card col-5 text-center" id="user-character-card">
                 <div class="card-header" id="user-character-name">
                     UserCharacter
                 </div>
                 <img class="card-img-top" id="user-character-thumbnail" src="" alt="user-character">
                 <div class="card-body">HP: <span id="user-character-hp"></span></div>
-            </div>
+            </div> -->
             <img class="card-img-top col-2" id="versus-icon" src="" alt="versus-icon">
-            <div class="card col-5 text-center" id="opponent-card">
+            <!-- <div class="card col-5 text-center" id="opponent-card">
                 <div class="card-header" id="character4-name">
                     Character4
                 </div>
                 <img class="card-img-top" id="opponent-thumbnail" src="" alt="opponent-character">
                 <div class="card-body">HP: <span id="opponent-hp"></span></div>
-            </div>
+            </div> -->
             <span class="col-4"></span>
             <button type="button" class="btn btn-danger btn-lg col-4 mt-4" id="attack-button">Attack</button>
         </div>
@@ -82,9 +82,9 @@
                 Combat text goes here
             </div>
             <span class="col-2"></span>
-            <div class="col-5" id="opponent-bench">
-                <div class="row">
-                    <div class="card col-4 text-center" id="character4-card">
+            <div class="col-5">
+                <div class="row" id="opponent-bench">
+                    <!-- <div class="card col-4 text-center" id="character4-card">
                         <div class="card-header" id="character4-name">
                             Character4
                         </div>
@@ -104,9 +104,12 @@
                         </div>
                         <img class="card-img-top" id="character4-thumbnail" src="" alt="character4">
                         <div class="card-body">HP: <span id="character4-hp"></span></div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
+        </div>
+        <div class="row">
+                <button type="button" class="btn btn-danger btn-lg mt-4" id="reset-button">Reset</button>
         </div>
     </div>
     </div>
