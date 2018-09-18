@@ -2,6 +2,10 @@
     margin: 0 auto;
 }
 
-#versus-icon, #combat-area-title {
+#character-select-box, #combat-area-box, #combat-text, #opponent-bench{
     display: none;
+}
+
+#versus-icon {
+    object-fit: contain
 }
